@@ -65,6 +65,10 @@ class mcmmoPlayer {
                 return true;
             break;
             case "version":
+                if(!$sender->hasPermission("mcmmo.command.version")){
+                    $sender->sendMessage("$prefix §cYou don't have permission to use this command.");
+                    return true;
+                }
                 $version = $plugin->getDescription()->getVersion();
                 $sender->sendMessage("$prefix §6mcMMO §fis running in version §b{$version}.");
                 return true;
