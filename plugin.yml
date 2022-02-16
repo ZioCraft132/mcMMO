@@ -1,0 +1,57 @@
+---
+name: mcMMO
+api: [3.0.0, 4.0.0]
+version: 1.0
+authors:
+  - Fabrizio
+depend:
+- FormAPI
+main: fabrizio\mcmmo\mcMMO
+
+commands:
+  mcmmo:
+    usage: "/mcmmo"
+    permission: mcmmo.command.mcmmo
+    description: "Open mcmmo menu."
+
+permissions:
+  mcmmo.command.mcmmo:
+    default: true
+    description: "A mcmmo command permission."
+  mcmmo.command.addlevel:
+    default: op
+    description: "A mcmmo command permission."
+  mcmmo.command.addxp:
+    default: op
+    description: "A mcmmo command permission."
+  mcmmo.command.check:
+    default: op
+    description: "A mcmmo command permission."
+  mcmmo.command.help:
+    default: op
+    description: "A mcmmo command permission."
+  mcmmo.command.reducelevel:
+    default: op
+    description: "A mcmmo command permission."
+  mcmmo.command.reducexp:
+    default: op
+    description: "A mcmmo command permission."
+  mcmmo.command.resetall:
+    default: op
+    description: "A mcmmo command permission."
+  mcmmo.command.version:
+    default: op
+    description: "A mcmmo command permission."
+  mcmmo.command.*:
+    default: op
+    description: "A mcmmo command permission."
+  mcmmo.command.admin:
+    default: op
+    description: "A mcmmo command permission."
+  mcmmo.command.skills:
+    default: true
+    description: "A mcmmo command permission."
+  mcmmo.command.profile.player:
+    default: op
+    description: "A mcmmo command permission."
+...
