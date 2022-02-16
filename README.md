@@ -50,4 +50,4 @@ $api->addXp(string $skillId, int $count, string/Player $player) : bool ;
 |mcmmo.command.version|```op```|
 
 # Download
-...
+[here](https://poggit.pmmp.io/ci/ZioCraft132/mcMMO/~)
