@@ -24,9 +24,6 @@ permissions:
   mcmmo.command.addxp:
     default: op
     description: "A mcmmo command permission."
-  mcmmo.command.check:
-    default: op
-    description: "A mcmmo command permission."
   mcmmo.command.help:
     default: op
     description: "A mcmmo command permission."
@@ -36,16 +33,7 @@ permissions:
   mcmmo.command.reducexp:
     default: op
     description: "A mcmmo command permission."
-  mcmmo.command.resetall:
-    default: op
-    description: "A mcmmo command permission."
   mcmmo.command.version:
-    default: op
-    description: "A mcmmo command permission."
-  mcmmo.command.*:
-    default: op
-    description: "A mcmmo command permission."
-  mcmmo.command.admin:
     default: op
     description: "A mcmmo command permission."
   mcmmo.command.skills:
