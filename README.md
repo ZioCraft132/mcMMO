@@ -37,3 +37,17 @@ To add skill xp or level to player. </br>
 $api->addXp(string $skillId, int $count, string/Player $player) : bool ;
 $api->addXp(string $skillId, int $count, string/Player $player) : bool ;
 ```
+
+# Permission
+|Permission|Status|
+|----------|------|
+|mcmmo.command.mcmmo|```default```|
+|mcmmo.command.help|```op```|
+|mcmmo.command.addlevel|```op```|
+|mcmmo.command.addxp|```op```|
+|mcmmo.command.reducelevel|```op```|
+|mcmmo.command.reducexp|```op```|
+|mcmmo.command.version|```op```|
+
+# Download
+...
